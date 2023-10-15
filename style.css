@@ -6,3 +6,24 @@
     --main-text-color: #757575;
     --footer-addres-color: #FFFFFF99;
 }
+
+ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.header__nav__link {
+    color: var(--title-color)
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
