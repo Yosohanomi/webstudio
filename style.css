@@ -19,11 +19,5 @@ a {
 }
 
 .header__nav__link {
-    color: var(--title-color)
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    color: var(--title-color);
 }
