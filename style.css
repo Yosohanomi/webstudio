@@ -19,5 +19,5 @@ a {
 }
 
 .header__nav__link {
-    color: var(--title-color);
+    color: currentColor;
 }
