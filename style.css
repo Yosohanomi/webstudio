@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     cursor: default;
 }
 
@@ -17,7 +17,6 @@ body {
     color: var(--logo-color1);
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -26,7 +25,6 @@ body {
 .header__logo > span {
     color: var(--logo-color);
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -35,7 +33,6 @@ body {
 .header__list {
     color: var(--main-text-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
@@ -65,14 +62,13 @@ a {
 .header__nav {
     color: var(--title-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
 /* main */
-.main__section__title {
+.decision__section {
     background: #2F303A;
     width: 1600px;
     height: 600px;
@@ -81,14 +77,13 @@ a {
     color: var(--logo-footer-color);
     text-align: center;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 136.364%;
     letter-spacing: 2.64px;
     text-transform: uppercase
 }
 
-.main__section__item {
+.decision__section__btn {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -100,62 +95,56 @@ a {
     color: var(--logo-footer-color);
 text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 187.5% */
+line-height: 187.5%;
 letter-spacing: 0.96px;
 }
 
-.main__list__title {
+.advantages__list__subtitle {
     color: var(--title-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
-.main__list__text {
+.advantages__list__text {
     color: var(--main-text-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 171.429%;
     letter-spacing: 0.42px;
 }
 
-.main__section__caption {
+.whatwedo__section__caption {
     color: var(--title-color);
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
 }
 
-.main__list__subtitle {
+.team__item__subtitle {
     color:var(--title-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
 }
 
-.main__list-item {
+.team__item__text {
     color: var(--main-text-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.48px;
     }
 
-.main__section {
+.team__section {
     background: #F5F4FA;
 }    
 
@@ -169,18 +158,16 @@ footer {
 .footer__address {
     color: var(--footer-addres-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 171.429%;
     letter-spacing: 0.42px;
 }
 
-.footer__address__item {
+.footer__address__text {
     color:var(--logo-footer-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 171.429%;
     letter-spacing: 0.42px;
 }
 
@@ -188,7 +175,6 @@ footer {
     color: var(--logo-color1);
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -197,8 +183,50 @@ footer {
 .footer__logo > span {
     color: var(--logo-footer-color);
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
     }
+
+    /* portfolio main */
+.portfolio__item__btn {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:162.5%;
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.portfolio__item__btn:hover,
+.portfolio__item__btn:focus {
+    color: var(--logo-footer-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:162.5%;
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: #2196F3;
+    cursor: pointer;
+}
+
+.portfolio__item__subtitle {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 1.08px;
+}
+
+.portfolio__item__text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height:187.5%;
+    letter-spacing: 0.48px;
+}

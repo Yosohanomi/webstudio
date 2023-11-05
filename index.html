@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- header -->
     <header>
         <a href="index.html" class="header__logo">Web<span>Studio</span> </a>
         <nav class="header__nav">
@@ -26,71 +27,76 @@
                 <li class="header__list__item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
+    <hr>
+
+    <!-- main -->
     <main>
-        <section class="main__section__title">
-            <h1>Ефективні рішення для<br> вашого бізнесу</h1>
-            <button class="main__section__item" type="button">Замовити послугу</button>
+        <section class="decision__section">
+            <h1 class="decision__section__caption">Ефективні рішення для<br> вашого бізнесу</h1>
+            <button class="decision__section__btn" type="button">Замовити послугу</button>
         </section>
-        <section>
-            <ul class="main__list">
-                <li>
-                    <h3 class="main__list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="main__list__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+        <section class="advantages">
+            <ul class="advantages__list">
+                <li class="advantages__list__item">
+                    <h3 class="advantages__list__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="advantages__list__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li>
-                    <h3 class="main__list__title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="main__list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <li class="advantages__list__item">
+                    <h3 class="advantages__list__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="advantages__list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li>
-                    <h3 class="main__list__title">ПЛАНУВАННЯ</h3>
-                    <p class="main__list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <li class="advantages__list__item">
+                    <h3 class="advantages__list__subtitle">ПЛАНУВАННЯ</h3>
+                    <p class="advantages__list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
-                    <h3 class="main__list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="main__list__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <li class="advantages__list__item">
+                    <h3 class="advantages__list__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="advantages__list__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2 class="main__section__caption">Чим ми займаємось</h2>
-            <ul>
-                <li><img src="images/about/img.jpg" alt="desktop applications" width="370" height="294"></li>
-                <li><img src="images/about/mobile.jpg" alt="mobile applications" width="370" height="294"></li>
-                <li><img src="images/about/design.jpg" alt="design solutions" width="370" height="294"></li>
+        <section class="whatwedo__section">
+            <h2 class="whatwedo__section__caption">Чим ми займаємось</h2>
+            <ul class="whatwedo__section_list">
+                <li class="whatwedo__section__img"><img src="images/about/img.jpg" alt="desktop applications" width="370" height="294"></li>
+                <li class="whatwedo__section__img"><img src="images/about/mobile.jpg" alt="mobile applications" width="370" height="294"></li>
+                <li class="whatwedo__section__img"><img src="images/about/design.jpg" alt="design solutions" width="370" height="294"></li>
             </ul>
         </section>
-        <section class="main__section">
-            <h2 class="main__section__caption">Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="images/team/igor.jpg" alt="Ihor Demyanenko" width="270" height="260">
-                    <h3 class="main__list__subtitle">Ігор Дем'яненко</h3>
-                    <p class="main__list-item">Product Designer</p>
+        <section class="team__section">
+            <h2 class="team__section__caption">Наша команда</h2>
+            <ul class="team__section__list">
+                <li class="team__list__item">
+                    <img class="team__item__img" src="images/team/igor.jpg" alt="Ihor Demyanenko" width="270" height="260">
+                    <h3 class="team__item__subtitle">Ігор Дем'яненко</h3>
+                    <p class="team__item__text">Product Designer</p>
                 </li>
-                <li>
-                    <img src="images/team/olga.jpg" alt="Olga Repina" width="270" height="260">
-                    <h3 class="main__list__subtitle">Ольга Рєпіна</h3>
-                    <p class="main__list-item">Frontend Developer</p>
+                <li class="team__list__item">
+                    <img class="team__item__img" src="images/team/olga.jpg" alt="Olga Repina" width="270" height="260">
+                    <h3 class="team__item__subtitle">Ольга Рєпіна</h3>
+                    <p class="team__item__text">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="images/team/mikola.jpg" alt="Mykola Tarasov" width="270" height="260">
-                    <h3 class="main__list__subtitle">Микола Тарасов</h3>
-                    <p class="main__list-item">Marketing</p>
+                <li class="team__list__item">
+                    <img class="team__item__img" src="images/team/mikola.jpg" alt="Mykola Tarasov" width="270" height="260">
+                    <h3 class="team__item__subtitle">Микола Тарасов</h3>
+                    <p class="team__item__text">Marketing</p>
                 </li>
-                <li>
-                    <img src="images/team/mihailo.jpg" alt="Mykhailo Yermakov" width="270" height="260">
-                    <h3 class="main__list__subtitle">Михайло Єрмаков</h3>
-                    <p class="main__list-item">UI Designer</p>
+                <li class="team__list__item">
+                    <img class="team__item__img" src="images/team/mihailo.jpg" alt="Mykhailo Yermakov" width="270" height="260">
+                    <h3 class="team__item__subtitle">Михайло Єрмаков</h3>
+                    <p class="team__item__text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
+
+    <!-- footer -->
     <footer>
             <a class="footer__logo" href="index.html">Web<span>Studio</span></a> 
         <address class="footer__address">
-            <p class="footer__address__item"><a href="https://maps.app.goo.gl/ZEPTmpD3si6g6RnHA" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></p>
-            <a href="mailto:info@devstudio.com">info@devstudio.com<br></a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <p class="footer__address__text"><a href="https://maps.app.goo.gl/ZEPTmpD3si6g6RnHA" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></p>
+            <a class="footer__address__link" href="mailto:info@devstudio.com">info@devstudio.com<br></a>
+            <a class="footer__address__link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
     </footer>
 </body>
