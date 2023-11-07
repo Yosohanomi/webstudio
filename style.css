@@ -189,7 +189,7 @@ footer {
     }
 
     /* portfolio main */
-.portfolio__item__btn {
+.portfolio__btn {
     color: var(--title-color);
     text-align: center;
     font-size: 16px;
@@ -201,8 +201,8 @@ footer {
     background: #F5F4FA;
 }
 
-.portfolio__item__btn:hover,
-.portfolio__item__btn:focus {
+.portfolio__btn:hover,
+.portfolio__btn:focus {
     color: var(--logo-footer-color);
     text-align: center;
     font-size: 16px;
@@ -215,7 +215,7 @@ footer {
     cursor: pointer;
 }
 
-.portfolio__item__subtitle {
+.portfolio__project-subtitle {
     color: var(--title-color);
     font-size: 18px;
     font-weight: 700;
@@ -223,7 +223,7 @@ footer {
     letter-spacing: 1.08px;
 }
 
-.portfolio__item__text {
+.portfolio__project-text {
     color: var(--main-text-color);
     font-size: 16px;
     font-weight: 400;
