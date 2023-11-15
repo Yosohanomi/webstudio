@@ -61,6 +61,7 @@ a {
 }
 
 /* main */
+/* hero */
 .hero {
     background: #2F303A;
     height: 600px;
@@ -90,6 +91,7 @@ line-height: 187.5%;
 letter-spacing: 0.96px;
 }
 
+/* advantages */
 .advantages__list__subtitle {
     color: var(--title-color);
     font-size: 14px;
@@ -106,6 +108,7 @@ letter-spacing: 0.96px;
     letter-spacing: 0.42px;
 }
 
+/* works */
 .works__section__title {
     color: var(--title-color);
     text-align: center;
@@ -114,6 +117,7 @@ letter-spacing: 0.96px;
     letter-spacing: 1.08px;
 }
 
+/* team */
 .team__section__title {
     color: var(--title-color);
 
