@@ -7,6 +7,12 @@
     --footer-addres-color: rgba(255, 255, 255, 0.60);
 }
 
+.container {
+    width: 252px;
+    margin: 0 auto;
+    padding: 0, 15;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
