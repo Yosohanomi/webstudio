@@ -10,11 +10,11 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15;
+    padding: 0 15px;
 }
 
 section {
-    margin-bottom: 94;
+    margin-bottom: 94px;
 }
 
 
