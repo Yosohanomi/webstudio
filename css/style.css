@@ -259,6 +259,9 @@ margin-right: 344px;
     }
 
     /* portfolio main */
+.portfolio__section{
+    margin-top: 94px;
+}
 .portfolio__btn {
     color: var(--title-color);
     text-align: center;
@@ -269,6 +272,13 @@ margin-right: 344px;
 
     border-radius: 4px;
     background: #F5F4FA;
+    margin-right: 8px;
+    padding: 6px 22px;
+}
+
+.portfolio__section__btn-list{
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio__btn:hover,
