@@ -223,6 +223,7 @@ margin-right: 344px;
 .footer__contacts {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 
