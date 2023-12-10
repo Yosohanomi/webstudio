@@ -273,6 +273,7 @@ margin-right: 344px;
     border-radius: 4px;
     background: #F5F4FA;
     margin-right: 8px;
+    margin-bottom: 50px;
     padding: 6px 22px;
 }
 
@@ -294,6 +295,7 @@ margin-right: 344px;
     background: #2196F3;
     cursor: pointer;
 }
+
 
 .portfolio__project-subtitle {
     color: var(--title-color);
