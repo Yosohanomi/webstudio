@@ -125,6 +125,10 @@ margin-right: 344px;
 }
 
 /* advantages */
+.advantages__list{
+    display: flex;
+    flex-wrap: space-around;
+}
 .advantages__list__subtitle {
     color: var(--title-color);
     font-size: 14px;
@@ -149,6 +153,11 @@ margin-right: 344px;
     font-weight: 700;
     letter-spacing: 1.08px;
 }
+.works__section_list{
+    display: flex;
+    flex-wrap: space-around;
+
+}
 
 /* team */
 .team__section__title {
@@ -166,6 +175,8 @@ margin-right: 344px;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
 }
 
 .team__item__text {
@@ -174,19 +185,31 @@ margin-right: 344px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
     }
 
 .team__section {
     background: #F5F4FA;
-}    
+    height: 648px;
+}  
+
+.team__section__list {
+    display: flex;
+    flex-wrap: center;
+}
 
 /* footer */
-.footer .container {
+.footer {
     background: #2F303A;
     height: 252px;
     flex-shrink: 0;
     padding-top: 60px;
     padding-bottom: 20px;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
 }
 
 
