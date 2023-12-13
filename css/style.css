@@ -48,7 +48,6 @@ header .container {
     font-weight: 700;
     letter-spacing: 0.78px;
     margin-right: 93px;
-    display: flex;
 }
 
 .header__logo > span {
@@ -132,7 +131,7 @@ margin-right: 344px;
 /* advantages */
 .advantages__list{
     display: flex;
-    flex-wrap: space-around;
+    justify-content: space-around;
 }
 .advantages__list__subtitle {
     color: var(--title-color);
@@ -163,7 +162,7 @@ margin-right: 344px;
     display: flex;
 }
 .works__section__img{
-    flex-wrap: center;
+    justify-content: center;
     margin-right: 30px;
 }
 
@@ -182,6 +181,7 @@ margin-right: 344px;
     font-weight: 700;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .team__item__subtitle {
@@ -209,7 +209,7 @@ margin-right: 344px;
 
 .team__section__list {
     display: flex;
-    flex-wrap: center;
+    justify-content: center;
 }
 
 /* footer */
