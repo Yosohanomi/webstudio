@@ -235,13 +235,6 @@ margin-right: 344px;
     letter-spacing: 0.42px;
 }
 
-.footer__contacts__text {
-    color:var(--logo-footer-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171.429%;
-    letter-spacing: 0.42px;
-}
 
 .footer__logo {
     color: var(--link-color);
