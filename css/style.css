@@ -268,6 +268,7 @@ margin-right: 344px;
 .portfolio__btn:hover,
 .portfolio__btn:focus {
     background: #2196F3;
+    color: var(--logo-footer-color);
 }
 
 
