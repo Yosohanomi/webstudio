@@ -131,18 +131,21 @@ margin-right: 344px;
     background-image: url('../images/BG/antenna\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 30px;
 }
 
 .advantages__list-item:nth-child(2)::before {
     background-image: url('../images/BG/clock\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 30px;
 }
 
 .advantages__list-item:nth-child(3)::before {
     background-image: url('../images/BG/diagram\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 30px;
 }
 
 .advantages__list-item:nth-child(4)::before {
