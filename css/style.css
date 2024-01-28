@@ -134,28 +134,28 @@ margin-right: 344px;
 
 .advantages__list-item:nth-child(1)::before {
     content: '';
-    background-image: url('../images/BG/antenna\ 1.png');
+    background-image: url('../images/BG/antenna.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .advantages__list-item:nth-child(2)::before {
     content: '';
-    background-image: url('../images/BG/clock\ 1.png');
+    background-image: url('../images/BG/clock.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .advantages__list-item:nth-child(3)::before {
     content: '';
-    background-image: url('../images/BG/diagram\ 1.png');
+    background-image: url('../images/BG/diagram.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .advantages__list-item:nth-child(4)::before {
     content: '';
-    background-image: url('../images/BG/astronaut\ 1.png');
+    background-image: url('../images/BG/astronaut.png');
     background-repeat: no-repeat;
     background-position: center;
 }
