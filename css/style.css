@@ -82,7 +82,6 @@ margin-right: 344px;
 /* main */
 /* hero */
 .hero {
-    background: #2F303A;
     height: 600px;
 
     color: var(--logo-footer-color);
@@ -91,7 +90,9 @@ margin-right: 344px;
     font-weight: 900;
     line-height: 136.364%;
     letter-spacing: 2.64px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-image: url('../images/hero/heroes.jpg');
+    background-size: cover;
 }
 
 .hero__title{
