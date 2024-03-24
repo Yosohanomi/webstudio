@@ -294,8 +294,6 @@ header .container {
 
 /* CLIENTS */
 
-.clients {
-}
 .clients__title {
     display: flex;
     justify-content: center;
@@ -316,8 +314,7 @@ header .container {
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
-.clients__item__list-link {
-}
+
 .clients__link-svg {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
@@ -369,6 +366,42 @@ header .container {
 .footer__contacts__link:focus {
     color: #FFF;
 }
+/* JOIN FOOTER */
+.join {
+    display: flex;
+    justify-content: right;
+}
+.join__text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.join__list {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    gap: 10px;
+}
+.join__item {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    padding: 12px 12px;
+}
+.join__item:hover {
+    background-color: var(--link-color);
+}
+.join__item-link {
+}
+.join__item-link-svg {
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
     /* portfolio main */
 .portfolio__section{
     padding-top: 94px;
