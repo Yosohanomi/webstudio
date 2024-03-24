@@ -266,8 +266,23 @@ header .container {
 .team__item__list-svg {
     display: flex;
     justify-content: center;
-    gap: 34px;
+    gap: 10px;
     margin-bottom: 42px;
+}
+
+.team__item__list-item {
+    height: 44px;
+    width: 44px;
+    padding: 12px 12px;
+}
+
+.team__item__list-item:hover {
+    background-color: var(--link-color);
+    border-radius: 50%;
+}
+
+.team__item__list-item:hover > a > svg {
+    fill: #FFFFFF;
 }
 
 .team__link-svg {
@@ -276,12 +291,6 @@ header .container {
     height: 20px;
 }
 
-.team__link-svg:hover,
-.team__link-svg:focus {
-    border-radius: 50%;
-    border: 18px solid var(--link-color);
-    fill: #FFFFFF;
-}
 
 /* CLIENTS */
 
@@ -300,12 +309,13 @@ header .container {
     margin-bottom: 110px;
 }
 .clients__item {
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    margin-right: 62px;
 }
 .clients__item__list-link {
 }
 .clients__link-svg {
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
     width: 106px;
     height: 60px;
 }
