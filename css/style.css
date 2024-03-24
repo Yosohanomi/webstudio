@@ -73,8 +73,7 @@ header .container {
     align-items: center;
 }
 
-.header__contact-item-svg:hover,
-.header__contact-item-svg:focus {
+.header__contact-item:hover > svg {
     fill: var(--link-color);
 }
 
@@ -369,7 +368,7 @@ header .container {
 /* JOIN FOOTER */
 .join {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 .join__text {
     color: #FFF;
