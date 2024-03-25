@@ -86,12 +86,12 @@ header .container {
 
 .header__contact-list {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .header__nav-list {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-right: 344px;
 }
 
