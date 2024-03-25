@@ -336,6 +336,9 @@ header .container {
     margin: 20px;
 }
 
+.footer__elements {
+    display: flex;
+}
 
 .footer__contacts {
     color: var(--footer-addres-color);
@@ -366,9 +369,10 @@ header .container {
     color: #FFF;
 }
 /* JOIN FOOTER */
-.join {
+.footer__elements-second {
     display: flex;
     justify-content: center;
+    margin-left: 82px;
 }
 .join__text {
     color: #FFF;
@@ -379,7 +383,6 @@ header .container {
 }
 .join__list {
     display: flex;
-    align-items: center;
     margin-top: 32px;
     gap: 10px;
 }
