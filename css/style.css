@@ -61,11 +61,6 @@ header .container {
     color: var(--link-color)
 }   
 
-.header__contact-item-svg {
-    width: 16px;
-    height: 12px;
-    fill: #757575
-}
 
 .header__contact-item{
     display: flex;
