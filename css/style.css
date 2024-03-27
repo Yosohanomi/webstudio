@@ -73,8 +73,13 @@ header .container {
     align-items: center;
 }
 
-.header__contact-item:hover > svg {
-    fill: var(--link-color);
+.header__contact-link:hover,
+.header__contact-link:focus {
+    color: #2196F3;
+}
+
+.header__contact-item-svg {
+    fill: currentColor;
 }
 
 .header__nav {
