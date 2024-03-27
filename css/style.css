@@ -56,10 +56,7 @@ header .container {
     color: var(--link-color)
 }
     
-.header__contact-link:hover,
-.header__contact-link:focus {
-    color: var(--link-color)
-}   
+
 
 
 .header__contact-item{
@@ -73,6 +70,11 @@ header .container {
     color: #2196F3;
 }
 
+.header__contact-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .header__contact-item-svg {
     fill: currentColor;
 }
@@ -258,7 +260,7 @@ header .container {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
-    padding-bottom: 30px;
+    margin-bottom: 16px;
     }
 
 
@@ -266,7 +268,7 @@ header .container {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .team__item__list-item {
@@ -293,32 +295,44 @@ header .container {
 
 /* CLIENTS */
 
+.clients {
+    padding: 94px 0px;
+}
+
 .clients__title {
-    display: flex;
-    justify-content: center;
-    margin-top: 94px;
+    text-align: center;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 .clients__list {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 66px;
-    margin-bottom: 110px;
+    gap: 30px;
 }
-.clients__item {
-    margin-right: 62px;
+.clients__item {   
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    padding: 16px 32px;
 }
-
-.clients__item:hover > a > svg{
-    fill: #2196F3;
-    border: 1px solid #2196F3;
+.clients__item:hover,
+.clients__item:focus {
+    /* fill: #2196F3; */
+    border: 1px solid #2196F3
 }
 
 .clients__link-svg {
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
     fill: #AFB1B8;
 }
+
+.clients__item:hover .clients__link-svg,
+.clients__item:focus .clients__link-svg {
+    fill: #2196F3; 
+}
+
 
 /* footer */
 .footer {
@@ -368,8 +382,6 @@ header .container {
 }
 /* JOIN FOOTER */
 .footer__elements-second {
-    display: flex;
-    justify-content: center;
     margin-left: 82px;
 }
 .join__text {
@@ -378,10 +390,10 @@ header .container {
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .join__list {
     display: flex;
-    margin-top: 32px;
     gap: 10px;
 }
 .join__item {
