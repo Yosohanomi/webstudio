@@ -64,25 +64,25 @@
                 <div class="modal">
                     <button class="close__btn" data-modal-close>Закрити</button>
                     <form class="modal__form">
-                        <h2 class="heroformtitle">Залиште свої дані, ми вам передзвонимо</h2>
+                        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
                         <label class="modal__label" for="name">Ім'я</label>
-                        <input class="heroforminput" type="name" id="name" placeholder="">
+                        <input class="modal__input" type="name" id="name" placeholder="" required>
 
                         <label class="modal__label" for="tel">Телефон</label>
-                        <input class="heroforminput" type="tel" id="tel" placeholder="">
+                        <input class="modal__input" type="tel" id="tel" placeholder="" required>
 
                         <label class="modal__label" for="email">Пошта</label>
-                        <input class="heroforminput" type="email" id="email" placeholder="">
+                        <input class="modal__input" type="email" id="email" placeholder="" required>
 
                         <label class="modal__label" for="textarea">Коментар</label>
-                        <input class="heroforminput-comment" type="text" id="textarea" placeholder="Введіть текст">
+                        <input class="heroforminput-comment" type="text" id="textarea" placeholder="Введіть текст" required>
 
-                        <div class="heroformdiv">
-                        <input class="heroformlabel-confirmation" type="checkbox" id="terms" name="terms" required>
-                        <label class="heroforminput-confirmation" for="terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
+                        <div class="modal__div-comments">
+                        <input class="modal__input-confirm" type="checkbox" id="terms" name="terms" required>
+                        <label class="modal__label-confirm" for="terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
                         </div>
 
-                        <button class="heroformbutton" type="button">Відправити</button>
+                        <button class="modal__button" type="button">Відправити</button>
                     </form>
                 </div>
             </div>
