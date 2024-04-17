@@ -58,14 +58,34 @@
             <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
             <!-- <button class="hero__btn" type="button">Замовити послугу</button> -->
 
-            <button class="hero__btn"data-modal-open>Відкрити модалку
-            <div class="backdrop_is-hidden" data-modal>
-            <div class="modal">
-            <button class="btn" data-modal-close>Закрити</button>
-            <p>....</p>
+            <button class="hero__btn" data-modal-open> Замовити послугу </button>
             </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close__btn" data-modal-close>Закрити</button>
+                    <form class="modal__form">
+                        <h2 class="heroformtitle">Залиште свої дані, ми вам передзвонимо</h2>
+                        <label class="modal__label" for="name">Ім'я</label>
+                        <input class="heroforminput" type="name" id="name" placeholder="">
+
+                        <label class="modal__label" for="tel">Телефон</label>
+                        <input class="heroforminput" type="tel" id="tel" placeholder="">
+
+                        <label class="modal__label" for="email">Пошта</label>
+                        <input class="heroforminput" type="email" id="email" placeholder="">
+
+                        <label class="modal__label" for="textarea">Коментар</label>
+                        <input class="heroforminput-comment" type="text" id="textarea" placeholder="Введіть текст">
+
+                        <div class="heroformdiv">
+                        <input class="heroformlabel-confirmation" type="checkbox" id="terms" name="terms" required>
+                        <label class="heroforminput-confirmation" for="terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
+                        </div>
+
+                        <button class="heroformbutton" type="button">Відправити</button>
+                    </form>
+                </div>
             </div>
-        </div>
         </section>
         <section class="advantages section">
             <div class="container">
@@ -374,5 +394,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

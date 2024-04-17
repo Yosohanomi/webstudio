@@ -156,23 +156,58 @@ header .container {
 .no-scroll {
     overflow: hidden;
     }
-    
-    
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 528px;
+    min-height: 581px;
     padding: 15px;
-    background-color: skyblue;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
     transform: translate(-50%, -50%);
     }
 
+.close__svg {
+    width: 18px;
+    height: 18px;
+}
+
+.close__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: gray;
+}
 .hero__btn:hover, 
 .hero__btn:focus {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+.close__btn:hover,
+.close__btn:focus {
+    border: 2px solid rgb(0, 110, 253);
+    background-color: #2196F3;
+}
+/* 
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+.modal__label {
+}
+.modal__input {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    width: 557px;
+    padding: ;
+} */
 
 /* advantages */
 .advantages__list-item::before {
