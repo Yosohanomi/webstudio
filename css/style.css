@@ -621,7 +621,69 @@ header .container {
     height: 20px;
 }
 
-    /* portfolio main */
+
+/* SEND-FOOTER */
+.footer__send-div {
+    padding-left: 93px;
+}
+
+.footer__input-button{
+}
+
+.footer__label {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.footer__input {
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+}
+
+.footer__send {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer__input-button {
+    display: flex;
+    gap: 12px;
+    padding-top: 20px;
+}
+.footer__link-send {
+}
+.footer__svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFF;
+
+}
+.footer__send-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 187.5%;
+    letter-spacing: 0.96px;
+}
+
+    /* PORTFOLIO main */
 .portfolio__section{
     padding-top: 94px;
     border: 1px solid #EEE;
