@@ -183,7 +183,7 @@ header .container {
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 50%;
-    background-color: gray;
+    background-color: #FFF;
 }
 .hero__btn:hover, 
 .hero__btn:focus {
@@ -192,23 +192,93 @@ header .container {
 
 .close__btn:hover,
 .close__btn:focus {
-    border: 2px solid rgb(0, 110, 253);
-    background-color: #2196F3;
+    fill: #2196F3;
 }
-/* 
-.modal__form {
-    display: flex;
-    flex-direction: column;
+
+
+.modal__title {
+    color: #212121;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+
 }
 .modal__label {
+    margin-bottom: 4px;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+}
+.modal__thumb {
+    position: relative;
 }
 .modal__input {
-    border-radius: 10px;
-    border: 1px solid #FFF;
-    background: #FFF;
-    width: 557px;
-    padding: ;
-} */
+    margin-bottom: 10px;
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding-left: 42px;
+
+}
+.modal__thumb-svg {
+    width: 18px;
+    height: 18px;
+    fill: #212121;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translate(-50%);
+}
+.form__input-comment {
+    margin-bottom: 10px;
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding-left: 42px;
+}
+.modal__div-comments {
+}
+.modal__input-confirm {
+}
+.modal__label-confirm {
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+}
+.modal__comment-terms {
+    color: #2196F3;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+}
+.modal__btn-send {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 187.5%;
+    letter-spacing: 0.96px;
+}
 
 /* advantages */
 .advantages__list-item::before {

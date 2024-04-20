@@ -64,29 +64,49 @@
                 <div class="modal">
                     <button class="close__btn" data-modal-close>
                         <svg class="close__svg">
-                            <use href="./images/icons/symbol-defs.svg#icon-Vector" ></use>
+                            <use href="./images/icons/symbol-defs.svg#icon-close"></use>
                         </svg>
                     </button>
                     <form class="modal__form">
+
                         <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+
                         <label class="modal__label" for="name">Ім'я</label>
-                        <input class="modal__input" type="name" id="name" placeholder="" required>
+                        <div class="modal__thumb">
+                            <input class="modal__input" type="name" id="name" required>
+                            <svg class="modal__thumb-svg">
+                                <use href="./images/icons/symbol-defs.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                        
 
                         <label class="modal__label" for="tel">Телефон</label>
-                        <input class="modal__input" type="tel" id="tel" placeholder="" required>
+                        <div class="modal__thumb">
+                            <input class="modal__input" type="tel" id="tel" required>
+                            <svg class="modal__thumb-svg">
+                                <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                        
 
                         <label class="modal__label" for="email">Пошта</label>
-                        <input class="modal__input" type="email" id="email" placeholder="" required>
+                        <div class="modal__thumb">
+                            <input class="modal__input" type="email" id="email" required>
+                            <svg class="modal__thumb-svg">
+                                <use href="./images/icons/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                        
 
                         <label class="modal__label" for="textarea">Коментар</label>
-                        <input class="heroforminput-comment" type="text" id="textarea" placeholder="Введіть текст" required>
+                        <input class="form__input-comment" type="text" id="textarea" placeholder="Введіть текст" required>
 
                         <div class="modal__div-comments">
                         <input class="modal__input-confirm" type="checkbox" id="terms" name="terms" required>
-                        <label class="modal__label-confirm" for="terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
+                        <label class="modal__label-confirm" for="terms">Погоджуюся з розсилкою та приймаю <a href="#" class="modal__comment-terms">Умови договору</a></label>
                         </div>
 
-                        <button class="modal__button" type="button">Відправити</button>
+                        <button class="modal__btn-send" type="button">Відправити</button>
                     </form>
                 </div>
             </div>
