@@ -179,6 +179,7 @@ header .container {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.10);
@@ -204,19 +205,31 @@ header .container {
     font-weight: 700;
     letter-spacing: 0.6px;
     margin-bottom: 12px;
-
+    margin-left: 41px;
+    margin-right: 39px;
 }
 .modal__label {
-    margin-bottom: 4px;
+    margin-bottom: -17px;
     color: #757575;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
+    display: flex;
+    padding-left: 41px;
 }
 .modal__thumb {
-    position: relative;
+    display: flex;
+    padding-left: 41px;
 }
+
+.modal__input:hover,
+.modal__input:focus {
+    border: 1px solid #2196F3;
+    fill: #2196F3;
+}
+
+
 .modal__input {
     margin-bottom: 10px;
     width: 448px;
@@ -235,18 +248,16 @@ header .container {
     top: 50%;
     transform: translate(-50%);
 }
-.form__input-comment {
-    margin-bottom: 10px;
-    width: 448px;
-    height: 120px;
-    border-radius: 4px;
-    border: 1px solid rgba(33, 33, 33, 0.20);
-    padding-left: 42px;
+
+.modal__div-confrim {
+    color: rgba(117, 117, 117, 0.50);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
 }
-.modal__div-comments {
-}
-.modal__input-confirm {
-}
+
+
 .modal__label-confirm {
     color: #757575;
     font-family: "Roboto", sans-serif;
@@ -278,6 +289,42 @@ header .container {
     font-weight: 700;
     line-height: 187.5%;
     letter-spacing: 0.96px;
+
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* comment */
+
+
+.modal__label-comment {
+    margin-bottom: -17px;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    display: flex;
+    padding-left: 41px;
+}
+.form__input-comment {
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    margin-bottom: 4px;
+    color: rgba(33, 33, 33, 0.20);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    margin-left: -27px;
+    padding-left: 16px;
+}
+
+.form__input-comment:hover,
+.form__input-comment:focus {
+    border: 1px solid #2196F3;
 }
 
 /* advantages */
