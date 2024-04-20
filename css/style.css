@@ -172,6 +172,7 @@ header .container {
 .close__svg {
     width: 18px;
     height: 18px;
+    display: flex;
 }
 
 .close__btn{
