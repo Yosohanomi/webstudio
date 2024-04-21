@@ -234,6 +234,10 @@ header .container {
 .modal__input:hover,
 .modal__input:focus {
     border: 1px solid #2196F3;
+    outline: none;
+}
+
+.modal__input:focus + .modal__thumb-svg {
     fill: #2196F3;
 }
 
@@ -337,6 +341,7 @@ header .container {
 .form__input-comment:hover,
 .form__input-comment:focus {
     border: 1px solid #2196F3;
+    outline: none;
 }
 
 /* advantages */
