@@ -715,7 +715,7 @@ header .container {
     padding-top: 94px;
     border: 1px solid #EEE;
     position: relative;
-    height: 100vh;
+    height: 1552px;
     gap: 30px;
 }
 .portfolio__section__btn-list{
@@ -777,7 +777,7 @@ header .container {
 
 .portfolio__project-img-div {
     position: absolute;
-    overflow: hidden;
+   
 }
 .portfolio__project-img-div:hover .overlay{
     position: absolute;
@@ -818,6 +818,7 @@ header .container {
     margin-top: 30px;
     border: 1px solid #EEE; 
     flex-basis: calc((100% - 3 * 30px) / 3);
+    overflow: hidden;
 
 }
 .portfolio__project-item:nth-child(7) {
