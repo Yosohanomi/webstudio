@@ -344,6 +344,7 @@ header .container {
     letter-spacing: 0.12px;
     padding-left: 16px;
     padding-top: 10px;
+    resize: none;
 }
 
 .form__input-comment:hover,
