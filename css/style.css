@@ -51,6 +51,9 @@ header .container {
     margin-left: 10px;
 }
 
+.header__nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
     
 .header__nav-link:hover,
 .header__nav-link:focus {
@@ -78,6 +81,10 @@ header .container {
     align-items: center;
 }
 
+.header__contact-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header__contact-link:hover,
 .header__contact-link:focus {
     color: #2196F3;
@@ -89,6 +96,7 @@ header .container {
     gap: 10px;
 }
 .header__contact-item-svg {
+    
     fill: currentColor;
 }
 
@@ -508,11 +516,17 @@ header .container {
     height: 44px;
     width: 44px;
     padding: 12px 12px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__item__list-item:hover {
     background-color: var(--link-color);
     border-radius: 50%;
+}
+
+.team__item__list-item > a > svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__item__list-item:hover > a > svg {
