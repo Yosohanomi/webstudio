@@ -8,6 +8,15 @@
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@keyframes link-color {
+  0% {
+  }
+  100% {
+    color: var(--link-color);
+  }
+}
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
