@@ -10,10 +10,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
         <a href="index.html" class="header__logo">Web<span>Studio</span></a>
         <nav class="header__nav">
@@ -55,10 +56,10 @@
     <main>
         <section class="hero section">
             <div class="container">
-            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 class="hero__title" data-aos="fade-up">Ефективні рішення для вашого бізнесу</h1>
             <!-- <button class="hero__btn" type="button">Замовити послугу</button> -->
 
-            <button class="hero__btn" data-modal-open> Замовити послугу </button>
+            <button class="hero__btn" data-modal-open data-aos="fade-up"> Замовити послугу </button>
             </div>
             
         </section>
@@ -89,7 +90,7 @@
             <h2 class="works__section__title">Чим ми займаємось</h2>
             <ul class="works__section_list">
                 <li class="works__section__item">
-                    <div class="works__img__container">
+                    <div class="works__img__container" data-aos="fade-up">
                         <img class="works__section__img" src="images/about/computer.jpg" alt="desktop applications" width="370" height="294">
                         <p class="works__section-text">Десктопні додатки</p>
                     </div>
@@ -97,14 +98,14 @@
                 </li>
 
                 <li class="works__section__item">
-                    <div class="works__img__container">
+                    <div class="works__img__container" data-aos="fade-up">
                         <img class="works__section__img" src="images/about/mobile.jpg" alt="mobile applications" width="370" height="294">
                         <p class="works__section-text">Мобільні додатки</p>
                     </div>
                     
                 </li>
                 <li class="works__section__item">
-                    <div class="works__img__container">
+                    <div class="works__img__container" data-aos="fade-up">
                         <img class="works__section__img" src="images/about/design.jpg" alt="design solutions" width="370" height="294">
                         <p class="works__section-text">Дизайнерські рішення</p>
                     </div>
@@ -117,7 +118,7 @@
             <div class="container">
             <h2 class="team__section__title">Наша команда</h2>
             <ul class="team__section__list">
-                <li class="team__list-item">
+                <li class="team__list-item" data-aos="fade-up">
                     <img class="team__item__img" src="images/team/igor.jpg" alt="Ihor Demyanenko" width="270" height="260">
                     <h3 class="team__item__subtitle">Ігор Дем'яненко</h3>
                     <p class="team__item__text">Product Designer</p>
@@ -154,7 +155,7 @@
                     </ul>
                 </li>
 
-                <li class="team__list-item">
+                <li class="team__list-item" data-aos="fade-up">
                     <img class="team__item__img" src="images/team/olga.jpg" alt="Olga Repina" width="270" height="260">
                     <h3 class="team__item__subtitle">Ольга Рєпіна</h3>
                     <p class="team__item__text">Frontend Developer</p>
@@ -191,7 +192,7 @@
                     </ul>
                 </li>
 
-                <li class="team__list-item">
+                <li class="team__list-item" data-aos="fade-up">
                     <img class="team__item__img" src="images/team/mikola.jpg" alt="Mykola Tarasov" width="270" height="260">
                     <h3 class="team__item__subtitle">Микола Тарасов</h3>
                     <p class="team__item__text">Marketing</p>
@@ -228,7 +229,7 @@
                     </ul>
                 </li>
 
-                <li class="team__list-item">
+                <li class="team__list-item" data-aos="fade-up">
                     <img class="team__item__img" src="images/team/mihailo.jpg" alt="Mykhailo Yermakov" width="270" height="260">
                     <h3 class="team__item__subtitle">Михайло Єрмаков</h3>
                     <p class="team__item__text">UI Designer</p>
@@ -437,5 +438,10 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

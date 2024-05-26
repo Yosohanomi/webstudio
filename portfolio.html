@@ -10,10 +10,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
         <a href="index.html" class="header__logo">Web<span>Studio</span></a>
         <nav class="header__nav">
@@ -75,7 +76,7 @@
 
 
     <ul class="portfolio__section__project-list">
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/technokryak.jpg" alt="Technokryak">
                 <div class="overlay">
@@ -87,7 +88,7 @@
             <p class="portfolio__project-text">Веб-сайт</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/poster.jpg" alt=" New Orlean vs Golden Star">
                 <div class="overlay">
@@ -99,7 +100,7 @@
             <p class="portfolio__project-text">Дизайн</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/restoran.jpg" alt="Seafood">
                 <div class="overlay">
@@ -111,7 +112,7 @@
             <p class="portfolio__project-text">Додаток</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/prime.jpg" alt="Prime">
                 <div class="overlay">
@@ -123,7 +124,7 @@
             <p class="portfolio__project-text">Маркетинг</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/boxes.jpg" alt="Boxes">
                 <div class="overlay">
@@ -135,7 +136,7 @@
             <p class="portfolio__project-text">Додаток</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/inspiration.jpg" alt="Inspiration has no Borders">
                 <div class="overlay">
@@ -147,7 +148,7 @@
             <p class="portfolio__project-text">Веб-сайт</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/limitededition.jpg" alt="Limited Edition">
                 <div class="overlay">
@@ -159,7 +160,7 @@
             <p class="portfolio__project-text">Дизайн</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/lab.jpg" alt="LAB">
                 <div class="overlay">
@@ -171,7 +172,7 @@
             <p class="portfolio__project-text">Маркетинг</p>
         </li>
 
-        <li class="portfolio__project-item">
+        <li class="portfolio__project-item" data-aos="fade-up">
             <div class="portfolio__project-img-div">
                 <img class="portfolio__project-img" src="images/project/growing.jpg" alt="Growing Business">
                 <div class="overlay">
@@ -251,5 +252,10 @@
         </div>
     </div>
 </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
