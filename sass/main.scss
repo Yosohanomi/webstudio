@@ -1,0 +1,21 @@
+@import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+
+// HEADER
+@import "./components/header";
+
+// FOOTER
+@import "./components/footer";
+
+// MAIN PAGE
+@import "./components/main_page/hero";
+@import "./components/main_page/modal";
+@import "./components/main_page/advantages";
+@import "./components/main_page/works";
+@import "./components/main_page/team";
+@import "./components/main_page/clients";
+
+// PORTFOLIO
+@import "./components/portfolio/btn";
+@import "./components/portfolio/cards";
