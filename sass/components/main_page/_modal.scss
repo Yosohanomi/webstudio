@@ -6,7 +6,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-    transition: opacity var(--animation) 250ms, visibility var(--animation) 250ms;
+    transition: opacity $animation 250ms, visibility $animation 250ms;
 }
 
 .backdrop.is-hidden {
@@ -30,7 +30,7 @@
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%) scale(1);
-    transition: transform var(--animation);
+    transition: transform $animation;
 }
 
 .close__btn {
@@ -52,12 +52,12 @@
     width: 18px;
     height: 18px;
     fill: #000000;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill $animation;
 }
 
 .close__icon:hover,
 .close__icon:focus {
-    fill: #2196f3;
+    fill: $link-color;
 }
 
 .modal__title {
@@ -83,12 +83,12 @@
 
 .modal__input:hover,
 .modal__input:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $link-color;
     outline: none;
 }
 
 .modal__input:focus + .modal__thumb-svg {
-    fill: #2196f3;
+    fill: $link-color;
 }
 
 .modal__input {
@@ -98,7 +98,7 @@
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     padding-left: 42px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border $animation;
 }
 .modal__thumb-svg {
     width: 18px;
@@ -108,7 +108,7 @@
     top: 50%;
     transform: translateY(-80%);
     position: absolute;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill $animation;
 }
 
 .modal__div-confrim {
@@ -130,7 +130,7 @@
     letter-spacing: 0.42px;
 }
 .modal__comment-terms {
-    color: #2196f3;
+    color: $link-color;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -142,7 +142,7 @@
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    background: #188ce8;
+    background: $link-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
     color: #fff;
@@ -186,6 +186,6 @@
 
 .form__input-comment:hover,
 .form__input-comment:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $link-color;
     outline: none;
 }

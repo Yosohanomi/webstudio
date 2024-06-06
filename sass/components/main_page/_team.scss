@@ -18,7 +18,7 @@
   }
   
   .team__section__title {
-    color: var(--title-color);
+    color: $title-color;
   
     text-align: center;
     font-size: 36px;
@@ -29,7 +29,7 @@
   }
   
   .team__item__subtitle {
-    color: var(--title-color);
+    color: $title-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -39,7 +39,7 @@
   }
   
   .team__item__text {
-    color: var(--main-text-color);
+    color: $main-text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -59,16 +59,16 @@
     width: 44px;
     padding: 12px 12px;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color $animation;
   }
   
   .team__item__list-item:hover {
-    background-color: var(--link-color);
+    background-color: $link-color;
     border-radius: 50%;
   }
   
   .team__item__list-item > a > svg {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill $animation;
   }
   
   .team__item__list-item:hover > a > svg {

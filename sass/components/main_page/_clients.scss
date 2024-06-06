@@ -20,19 +20,19 @@
     border-radius: 4px;
     border: 1px solid #afb1b8;
     padding: 16px 32px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border $animation;
   }
   .clients__item:hover,
   .clients__item:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $link-color;
   }
   
   .clients__link-svg {
     fill: #afb1b8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill $animation;
   }
   
   .clients__item:hover .clients__link-svg,
   .clients__item:focus .clients__link-svg {
-    fill: #2196f3;
+    fill: $link-color;
   }

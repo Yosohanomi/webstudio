@@ -1,5 +1,5 @@
 .portfolio__project-subtitle {
-    color: var(--title-color);
+    color: $title-color;
     font-size: 18px;
     font-weight: 700;
     line-height: 200%;
@@ -10,7 +10,7 @@
     }
     
     .portfolio__project-text {
-        color: var(--main-text-color);
+        color: $main-text-color;
         font-size: 16px;
         font-weight: 400;
         line-height: 187.5%;
@@ -60,7 +60,7 @@
         margin-top: 30px;
         border: 1px solid #eee;
         flex-basis: calc((100% - 3 * 30px) / 3);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow $animation;
     }
     .portfolio__project-item:nth-child(7) {
         margin-bottom: 94px;
