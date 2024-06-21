@@ -1,0 +1,15 @@
+@mixin advantages($url) {
+    content: "";
+    background-image: $url;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin btn($color, $font-weight) {
+    color: $color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: $font-weight;
+    border-radius: 4px;
+    cursor: pointer;
+}
