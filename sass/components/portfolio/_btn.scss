@@ -4,7 +4,7 @@
     height: 1552px;
     gap: 30px;
 
-    &__section__btn-list {
+    &__btn-list {
         display: flex;
         justify-content: center;
         gap: 8px;
@@ -12,17 +12,12 @@
     }
     
     &__btn {
-        color: $title-color;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
+        @include btn($title-color, 500);
         line-height: 162.5%;
         letter-spacing: 0.48px;
-    
-        border-radius: 4px;
+
         background: #f5f4fa;
         padding: 6px 22px;
-        cursor: pointer;
         transition: background-color $animation,
         color $animation,
         box-shadow $animation;
@@ -30,7 +25,7 @@
         &:hover,
         &:focus {
             background-color: $link-color;
-            color: var(--logo-footer-color);
+            color: $logo-footer-color;
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
             0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
         }

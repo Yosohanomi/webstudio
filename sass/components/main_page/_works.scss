@@ -1,5 +1,5 @@
 .works__section{
-  &__section__title {
+  &__title {
     color: $title-color;
     text-align: center;
     font-size: 36px;
@@ -7,7 +7,7 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
-  &__section_list {
+  &_list {
     display: flex;
     gap: 30px;
   }
@@ -15,7 +15,7 @@
   &__img__container {
     position: relative;
   }
-  &__section-text {
+  &-text {
     position: absolute;
     bottom: 0;
   

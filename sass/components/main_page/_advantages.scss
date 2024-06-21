@@ -10,31 +10,23 @@
   }
   
   &__list-item:nth-child(1)::before {
-    content: "";
-    background-image: url("../images/BG/antenna.png");
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @include advantages(url("../images/BG/antenna.png"))
   }
   
   &__list-item:nth-child(2)::before {
-    content: "";
-    background-image: url("../images/BG/clock.png");
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @include advantages(url("../images/BG/diagram.png"))
   }
   
   &__list-item:nth-child(3)::before {
-    content: "";
-    background-image: url("../images/BG/diagram.png");
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @include advantages(url("../images/BG/clock.png"))
   }
   
   &__list-item:nth-child(4)::before {
-    content: "";
-    background-image: url("../images/BG/astronaut.png");
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @include advantages(url("../images/BG/astronaut.png"))
   }
   
   &__list {
