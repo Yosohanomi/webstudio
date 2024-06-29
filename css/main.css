@@ -541,7 +541,7 @@ header .container {
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
-.works__section_list {
+.works__section__list {
   display: flex;
   gap: 30px;
 }
