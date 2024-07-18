@@ -144,6 +144,11 @@ header .container {
   fill: currentColor;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
 .footer {
   background: #2f303a;
   height: 252px;
