@@ -63,6 +63,7 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 15px;
+  width: 1200px;
 }
 
 body {
@@ -77,11 +78,6 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
   }
 }
 header .container {
@@ -144,11 +140,6 @@ header .container {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
 .footer {
   background: #2f303a;
   height: 252px;

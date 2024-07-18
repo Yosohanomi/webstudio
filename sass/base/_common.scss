@@ -5,6 +5,7 @@
 .container {
     margin: 0 auto;
     padding: 0 15px;
+    width: 1200px;
 }
 
 
@@ -24,12 +25,5 @@ body {
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-    }
-}
-
-// DEKSTOP (1200+)
-@media screen and (min-width: 1200px) {
-    .container {
-        width: 1200px;
     }
 }
