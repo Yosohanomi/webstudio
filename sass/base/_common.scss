@@ -1,10 +1,11 @@
 .section {
-    margin-bottom: 94px;
+    margin-bottom: 60px;
 }
 
 .container {
     margin: 0 auto;
     padding: 0 15px;
+    width: 480px;
 }
 
 
@@ -13,16 +14,26 @@ body {
 }
 
 
-// MOBILE (480+)
-@media screen and (min-width: 480px) {
-    .container {
-        width: 480px;
-    }
-}
-
-// TABLET (768+)
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .section {
+        margin-bottom: 94px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 1200px;
+    }
+    
+    
+    body {
+        font-family: $mainFontFamily;
+    }
+}
+
