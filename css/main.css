@@ -171,10 +171,10 @@ header .container {
     padding: 16px 0;
   }
   .header__contact-list {
-    visibility: hidden;
+    display: none;
   }
   .header__nav {
-    visibility: hidden;
+    display: none;
   }
   .header__menu__btn {
     visibility: visible;
