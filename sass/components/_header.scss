@@ -19,6 +19,8 @@ header .container {
 }
 
 .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     &__logo {
         @extend %logo;
@@ -60,10 +62,13 @@ header .container {
         background-color: $link-color;
         border-radius: 2px;
     }
+
+    &__nav {
+        // display: none;
+    }
     
     &__contact-list {
-        display: flex;
-        gap: 30px;
+        display: none;
     }
     
     &__contact-item {
@@ -94,30 +99,84 @@ header .container {
     }
 
 }
+// .header {
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+    
+//     &__logo {
+//         @extend %logo;
+//         margin-right: 93px;
+//     }
+    
+//     &__logo > span {
+//         color: $logo-color;
+//     }
+    
+//     &__nav-list {
+//         display: flex;
+//         gap: 30px;
+//         margin-right: 318px;
+//     }
+    
+//     &__nav-link {
+//         position: relative;
+//         padding-bottom: 32px;
+//         color: $title-color;
+//         @extend %text;
+//         transition: color $animation;
+//         &:hover,
+//         &:focus {
+//             color: $link-color;
+//         }
+//     }
+    
 
-@media screen and (min-width: 480px) {
-    header .container {
-        display: flex;
-        align-items: center;
-        padding: 16px 0;
-    }
+    
+//     .current::after {
+//         position: absolute;
+//         left: 0;
+//         bottom: 0;
+//         content: "";
+//         display: block;
+//         height: 4px;
+//         width: 100%;
+//         background-color: $link-color;
+//         border-radius: 2px;
+//     }
+    
+//     &__contact-list {
+//         display: flex;
+//         gap: 30px;
+//     }
+    
+//     &__contact-item {
+//         display: flex;
+//         align-items: center;
+//     }
+    
+//     &__contact-link {
+//         transition: color $animation;
+//         display: flex;
+//         align-items: center;
+//         gap: 10px;
+//         color: $main-text-color;
+//         @extend %text;
+//         margin-left: 10px;
 
-    .header__contact-list {
-        display: none;
-    }
-    .header__nav {
-        display: none;
-    }
 
-    .header__menu__btn {
-        visibility: visible;
-    }
-    .header__burger__menu {
-        visibility: visible;
-        width: 40px;
-        height: 40px;
-    }
-}
+//         &:hover,
+//         &:focus {
+//             color: $link-color;
+//         }
+//     }
+    
+
+    
+//     &__contact-item-svg {
+//         fill: currentColor;
+//     }
+
+// }
 
 
 
