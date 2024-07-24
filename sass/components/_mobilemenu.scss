@@ -1,8 +1,12 @@
+input[type="checkbox"],
+label {
+display: none;
+}
 
 @media screen and (max-width: 768px) {
-    nav {
-    order: 1;
-    }
+    // nav {
+    // order: 1;
+    // }
     
     label {
     display: block;
@@ -22,6 +26,7 @@
     position: absolute;
     right: 0;
     transition: 0.3s;
+    z-index: 5;
     }
     
     label span::before {
@@ -32,21 +37,22 @@
     top: 8px;
     }
     
-    .header__nav {
+    .header__nav-list {
         display: none;
     }
     
-    input[type="checkbox"]:checked ~ .header__nav {
+    input[type="checkbox"]:checked ~ .header__nav-list {
         display: flex;
         flex-direction: column;
     }
     
-    .header__nav {
+    .header__nav-list {
     position: absolute;
-    top: 100px;
+    top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    height: 100%;
+    padding: 48px 40px;
     background: #fff;
     box-shadow: 0 12px 8px #ececec;
     }

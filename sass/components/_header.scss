@@ -1,30 +1,16 @@
-header .container {
-    display: flex;
-    align-items: center;
-    padding: 25px 0;
-}
-
-.header__contact-list {
-    visibility: visible;
-}
-.header__nav {
-    visibility: visible;
-}
-
-.header__menu__btn {
-    visibility: hidden;
-}
-.header__burger__menu {
-    visibility: hidden;
-}
-
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     
     &__logo {
         @extend %logo;
-        margin-right: 93px;
+        font-size: 24px;
     }
     
     &__logo > span {
@@ -32,71 +18,75 @@ header .container {
     }
     
     &__nav-list {
-        display: flex;
-        gap: 30px;
-        margin-right: 318px;
+        // display: flex;
+        // gap: 30px;
+        // margin-right: 318px;
     }
     
     &__nav-link {
-        position: relative;
-        padding-bottom: 32px;
-        color: $title-color;
-        @extend %text;
-        transition: color $animation;
-        &:hover,
-        &:focus {
-            color: $link-color;
-        }
+        // position: relative;
+        // padding-bottom: 32px;
+        // color: $title-color;
+        // @extend %text;
+        // transition: color $animation;
+        // &:hover,
+        // &:focus {
+        //     color: $link-color;
+        // }
     }
     
 
     
     .current::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: "";
-        display: block;
-        height: 4px;
-        width: 100%;
-        background-color: $link-color;
-        border-radius: 2px;
+        // position: absolute;
+        // left: 0;
+        // bottom: 0;
+        // content: "";
+        // display: block;
+        // height: 4px;
+        // width: 100%;
+        // background-color: $link-color;
+        // border-radius: 2px;
     }
 
-    &__nav {
-        // display: none;
-    }
+    // &__nav {
+    //     position: absolute;
+    //     top: 0;
+    //     bottom: 0;
+    //     width: 100%;
+    //     height: 100%;
+    // }
     
     &__contact-list {
         display: none;
     }
     
-    &__contact-item {
-        display: flex;
-        align-items: center;
-    }
+    // &__contact-item {
+    //     display: flex;
+    //     align-items: center;
+    // }
     
-    &__contact-link {
-        transition: color $animation;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: $main-text-color;
-        @extend %text;
-        margin-left: 10px;
+    // &__contact-link {
+        // transition: color $animation;
+        // display: flex;
+        // align-items: center;
+        // gap: 10px;
+        // color: $main-text-color;
+        // @extend %text;
+        // margin-left: 10px;
 
 
-        &:hover,
-        &:focus {
-            color: $link-color;
-        }
-    }
+    //     &:hover,
+    //     &:focus {
+    //         color: $link-color;
+    //     }
+    // }
     
 
     
-    &__contact-item-svg {
-        fill: currentColor;
-    }
+    // &__contact-item-svg {
+    //     fill: currentColor;
+    // }
 
 }
 // .header {
