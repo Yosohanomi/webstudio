@@ -78,12 +78,7 @@ body {
     margin-bottom: 94px;
   }
   .container {
-    margin: 0 auto;
-    padding: 0 15px;
     width: 1200px;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
   }
 }
 input[type=checkbox],
@@ -292,19 +287,19 @@ label {
 }
 
 .hero {
-  height: 600px;
-  color: #ffffff;
   text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 136.364%;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+  height: 400px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/heroes.jpg");
   background-size: cover;
 }
 .hero__title {
-  padding-top: 200px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 161.538%;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  padding-top: 118px;
   margin-bottom: 30px;
 }
 .hero__btn {
@@ -316,11 +311,10 @@ label {
   cursor: pointer;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 216px;
+  width: 200px;
   height: 50px;
   line-height: 187.5%;
   letter-spacing: 0.96px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__btn:hover, .hero__btn:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
