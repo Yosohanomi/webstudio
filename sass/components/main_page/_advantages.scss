@@ -4,41 +4,36 @@
     display: block;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 270px;
+    width: 450px;
     height: 120px;
     margin-bottom: 30px;
   }
   
   &__list-item:nth-child(1)::before {
-
     @include advantages(url("../images/BG/antenna.png"))
   }
   
   &__list-item:nth-child(2)::before {
-
-    @include advantages(url("../images/BG/diagram.png"))
+    @include advantages(url("../images/BG/clock.png"))
+    
   }
   
   &__list-item:nth-child(3)::before {
-
-    @include advantages(url("../images/BG/clock.png"))
+    @include advantages(url("../images/BG/diagram.png"))
   }
   
   &__list-item:nth-child(4)::before {
-
     @include advantages(url("../images/BG/astronaut.png"))
   }
   
-  &__list {
-    display: flex;
-    gap: 30px;
-  }
   &__list__subtitle {
     color: $title-color;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
   }
   
   &__list__text {
@@ -47,7 +42,61 @@
     font-weight: 400;
     line-height: 171.429%;
     letter-spacing: 0.42px;
+    padding-bottom: 30px;
   }
 
 }
+
+// .advantages {
+//   &__list-item::before {
+//     content: "";
+//     display: block;
+//     border-radius: 4px;
+//     background-color: #f5f4fa;
+//     width: 270px;
+//     height: 120px;
+//     margin-bottom: 30px;
+//   }
+  
+//   &__list-item:nth-child(1)::before {
+
+//     @include advantages(url("../images/BG/antenna.png"))
+//   }
+  
+//   &__list-item:nth-child(2)::before {
+
+//     @include advantages(url("../images/BG/diagram.png"))
+//   }
+  
+//   &__list-item:nth-child(3)::before {
+
+//     @include advantages(url("../images/BG/clock.png"))
+//   }
+  
+//   &__list-item:nth-child(4)::before {
+
+//     @include advantages(url("../images/BG/astronaut.png"))
+//   }
+  
+//   &__list {
+//     display: flex;
+//     gap: 30px;
+//   }
+//   &__list__subtitle {
+//     color: $title-color;
+//     font-size: 14px;
+//     font-weight: 700;
+//     letter-spacing: 0.42px;
+//     text-transform: uppercase;
+//   }
+  
+//   &__list__text {
+//     color: $main-text-color;
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 171.429%;
+//     letter-spacing: 0.42px;
+//   }
+
+// }
 

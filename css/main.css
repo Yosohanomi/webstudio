@@ -518,7 +518,7 @@ label {
   display: block;
   border-radius: 4px;
   background-color: #f5f4fa;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
 }
@@ -530,13 +530,13 @@ label {
 }
 .advantages__list-item:nth-child(2)::before {
   content: "";
-  background-image: url("../images/BG/diagram.png");
+  background-image: url("../images/BG/clock.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .advantages__list-item:nth-child(3)::before {
   content: "";
-  background-image: url("../images/BG/clock.png");
+  background-image: url("../images/BG/diagram.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -546,16 +546,14 @@ label {
   background-repeat: no-repeat;
   background-position: center;
 }
-.advantages__list {
-  display: flex;
-  gap: 30px;
-}
 .advantages__list__subtitle {
   color: #212121;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .advantages__list__text {
   color: #757575;
@@ -563,6 +561,7 @@ label {
   font-weight: 400;
   line-height: 171.429%;
   letter-spacing: 0.42px;
+  padding-bottom: 30px;
 }
 
 .works__section__title {
