@@ -564,36 +564,8 @@ label {
   padding-bottom: 30px;
 }
 
-.works__section__title {
-  color: #212121;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
-}
-.works__section__list {
-  display: flex;
-  gap: 30px;
-}
-.works__section__img__container {
-  position: relative;
-}
-.works__section-text {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+.works__section {
+  display: none;
 }
 
 .team__section {
