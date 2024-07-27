@@ -1,6 +1,7 @@
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
 
     & .container {
         display: flex;
@@ -24,22 +25,15 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        padding-top: 10px;
-        padding-bottom: 10px;
-
+        padding: 20px 0px;
         &__logo {
-            @extend %logo;
-            margin-right: 93px;
-        }
-    
-        &__logo > span {
-            color: $logo-color;
+            margin-right: 88px;
         }
     
         &__nav-list {
             display: flex;
-            gap: 30px;
-            margin-right: 318px;
+            gap: 50px;
+            margin-right: 96px;
         }
     
         &__nav-link {
@@ -49,7 +43,6 @@
             font-size: 14px;
             font-weight: 500;
             letter-spacing: 0.28px;
-            // @extend %text;
             transition: color $animation;
             &:hover,
             &:focus {
@@ -71,12 +64,16 @@
     
         &__contact-list {
             display: flex;
-            gap: 30px;
+            flex-direction: column;
         }
     
         &__contact-item {
             display: flex;
             align-items: center;
+        }
+
+        &__email {
+            margin-bottom: 10px;
         }
     
         &__contact-link {
@@ -85,7 +82,6 @@
             align-items: center;
             gap: 10px;
             color: $main-text-color;
-            // @extend %text;
             font-size: 14px;
             font-weight: 500;
             letter-spacing: 0.28px;
