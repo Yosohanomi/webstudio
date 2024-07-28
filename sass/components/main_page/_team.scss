@@ -2,13 +2,6 @@
     background: #f5f4fa;
     padding-bottom: 60px;
     padding-top: 60px;
-
-    // &__list {
-    //   display: flex;
-    //   justify-content: center;
-    //   gap: 30px;
-    //   align-items: center;
-    // }
     
     &__list-item {
       border-radius: 0px 0px 4px 4px;
@@ -86,6 +79,22 @@
       height: 20px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .team__section {
+      &__list-item {
+        width: 354px;
+        
+      }
+
+    
+      &__item__list-svg {
+        padding-bottom: 24px;
+      }
+    
+}
+}
+
   
   // .team__section {
   //   background: #f5f4fa;
