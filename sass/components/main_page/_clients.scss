@@ -33,6 +33,14 @@
     
 
   }
+
+@media screen and (min-width: 768px) {
+  .clients {
+
+    &__item {
+      width: 226px;
+    }
+}
   
   // .clients {
   //   padding: 94px 0px;
