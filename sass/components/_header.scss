@@ -24,8 +24,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
     .header {
-        padding: 20px 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         &__logo {
             margin-right: 88px;
         }
@@ -96,6 +98,13 @@
         &__contact-item-svg {
             fill: currentColor;
         }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile__menu {
+        display: none;
+
     }
 }
 
