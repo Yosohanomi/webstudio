@@ -228,6 +228,65 @@ label {
     fill: currentColor;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header__logo {
+    margin-right: 93px;
+  }
+  .header__logo > span {
+    color: #000000;
+  }
+  .header__nav-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 318px;
+  }
+  .header__nav-link {
+    position: relative;
+    padding-bottom: 32px;
+    color: #212121;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header__nav-link:hover, .header__nav-link:focus {
+    color: #2196f3;
+  }
+  .header .current::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 2px;
+  }
+  .header__contact-list {
+    display: flex;
+    gap: 30px;
+  }
+  .header__contact-item {
+    display: flex;
+    align-items: center;
+  }
+  .header__contact-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #757575;
+    margin-left: 10px;
+  }
+  .header__contact-link:hover, .header__contact-link:focus {
+    color: #2196f3;
+  }
+  .header__contact-item-svg {
+    fill: currentColor;
+  }
+}
 .footer {
   background: #2f303a;
   flex-shrink: 0;
