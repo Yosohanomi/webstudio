@@ -157,6 +157,60 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+
+  &__elements {
+    display: flex;
+  }
+  
+  &__logo > span {
+    font-size: 26px;
+  }
+  
+  &__contacts__link {
+    transition: color $animation;
+  }
+  
+  &__contacts__link:hover,
+  &__contacts__link:focus {
+    color: #fff;
+  }
+  /* JOIN FOOTER */
+    &__elements-second {
+      margin-left: 82px;
+    }
+    .join__item {
+      transition: background-color $animation;
+    }
+    .join__item:hover {
+      background-color: $link-color;
+    }
+  
+  /* SEND-FOOTER */
+  &__send-div {
+    padding-top: 60px;
+    flex-direction: ;
+    
+  }
+  
+  &__input {
+    width: 358px;
+    height: 50px;
+  }
+
+  &__send-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__send {
+    gap: 4px;
+  }
+}
+}
+
+
 // .footer {
 //   background: #2f303a;
 //   height: 252px;
