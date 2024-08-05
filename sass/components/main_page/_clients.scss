@@ -26,6 +26,12 @@
       width: 210px;
     }
     
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-left: 15px;
+    }
     &__link-svg {
       fill: #afb1b8;
       transition: fill $animation;

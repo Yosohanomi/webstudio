@@ -287,8 +287,6 @@ body {
   .header__contact-item-svg {
     fill: currentColor;
   }
-}
-@media screen and (min-width: 768px) {
   .mobile__menu {
     display: none;
   }
@@ -1252,6 +1250,12 @@ body {
 }
 .clients__item:hover .clients__link-svg, .clients__item:focus .clients__link-svg {
   fill: #2196f3;
+}
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 15px;
 }
 .clients__link-svg {
   fill: #afb1b8;
