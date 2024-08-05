@@ -27,7 +27,7 @@
 
     .header {
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 10px;
         &__logo {
             margin-right: 88px;
         }
@@ -40,7 +40,7 @@
     
         &__nav-link {
             position: relative;
-            padding-bottom: 32px;
+            padding-bottom: 22px;
             color: $title-color;
             font-size: 14px;
             font-weight: 500;

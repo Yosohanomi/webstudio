@@ -226,7 +226,7 @@ body {
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px;
   }
   .header__logo {
     margin-right: 88px;
@@ -238,7 +238,7 @@ body {
   }
   .header__nav-link {
     position: relative;
-    padding-bottom: 32px;
+    padding-bottom: 22px;
     color: #212121;
     font-size: 14px;
     font-weight: 500;
