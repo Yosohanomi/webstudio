@@ -1448,23 +1448,14 @@ body {
   .portfolio__section__project-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    margin-top: -46px;
   }
   .portfolio__project-text {
     padding-bottom: 56px;
   }
-  .portfolio__section__project-list {
-    margin-top: -46px;
-  }
-  .portfolio__project-img {
-    width: 354px;
-  }
   .portfolio__overlay-text {
     margin-top: 49px;
-  }
-  .portfolio__project-item {
-    margin-left: 30px;
-    margin-top: 30px;
-    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
