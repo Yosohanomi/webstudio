@@ -293,14 +293,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 27px;
   }
   .header__logo {
     margin-right: 93px;
-  }
-  .header__logo > span {
-    color: #000000;
   }
   .header__nav-list {
     display: flex;
@@ -329,6 +326,7 @@ body {
   }
   .header__contact-list {
     display: flex;
+    flex-direction: row;
     gap: 30px;
   }
   .header__contact-item {

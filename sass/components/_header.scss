@@ -108,16 +108,11 @@
 
 @media screen and (min-width: 1200px) {
     .header {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 27px;
 
         &__logo {
-            @extend %logo;
             margin-right: 93px;
-        }
-
-        &__logo > span {
-            color: $logo-color;
         }
 
         &__nav-list {
@@ -151,6 +146,7 @@
 
         &__contact-list {
             display: flex;
+            flex-direction: row;
             gap: 30px;
         }
 
