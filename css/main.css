@@ -975,13 +975,15 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .advantages {
-    height: 600px;
-  }
   .advantages__list-item {
     width: 354px;
     display: flex;
     flex-wrap: wrap;
+  }
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   .advantages__list-item::before {
     display: block;
@@ -1153,6 +1155,11 @@ body {
   .team__section__list-item {
     width: 354px;
   }
+  .team__section__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   .team__section__item__list-svg {
     padding-bottom: 24px;
   }
@@ -1259,6 +1266,7 @@ body {
 .clients__link-svg {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 30px;
 }
 
 @media screen and (min-width: 768px) {

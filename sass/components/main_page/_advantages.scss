@@ -49,13 +49,17 @@
 
 @media screen and (min-width: 768px) {
   .advantages {
-    
-    height: 600px;
+
 
     &__list-item {
       width: 354px;
       display: flex;
       flex-wrap: wrap;
+    }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
     }
     &__list-item::before {
       display: block;

@@ -86,6 +86,11 @@
         width: 354px;
         
       }
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
 
     
       &__item__list-svg {
