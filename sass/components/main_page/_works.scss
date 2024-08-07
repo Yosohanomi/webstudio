@@ -4,6 +4,7 @@
 
 @media screen and (min-width: 1200px) {
   .works__section{
+    display: flex;
     visibility: visible;
   &__title {
     color: $title-color;
