@@ -26,9 +26,15 @@
       width: 210px;
     }
     
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
     &__link-svg {
       fill: #afb1b8;
       transition: fill $animation;
+      margin-left: 30px;
     }
     
 
@@ -42,44 +48,49 @@
     }
 }
 }
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding: 94px 0px;
+
+    &__title {
+      text-align: center;
+      color: #212121;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.08px;
+      margin-bottom: 50px;
+    }
+    &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+    &__item {
+      border-radius: 4px;
+      border: 1px solid #afb1b8;
+      padding: 16px 32px;
+      transition: border $animation;
+      &:hover,
+      &:focus {
+        border: 1px solid $link-color;
+      }
+
+      &:hover .clients__link-svg,
+      &:focus .clients__link-svg {
+        fill: $link-color;
+      }
+    }
+    
+    &__link-svg {
+      fill: #afb1b8;
+      transition: fill $animation;
+    }
+    
+
+  }
+
+}
   
-  // .clients {
-  //   padding: 94px 0px;
-
-  //   &__title {
-  //     text-align: center;
-  //     color: #212121;
-  //     font-size: 36px;
-  //     font-weight: 700;
-  //     letter-spacing: 1.08px;
-  //     margin-bottom: 50px;
-  //   }
-  //   &__list {
-  //     display: flex;
-  //     justify-content: center;
-  //     align-items: center;
-  //     gap: 30px;
-  //   }
-  //   &__item {
-  //     border-radius: 4px;
-  //     border: 1px solid #afb1b8;
-  //     padding: 16px 32px;
-  //     transition: border $animation;
-  //     &:hover,
-  //     &:focus {
-  //       border: 1px solid $link-color;
-  //     }
-
-  //     &:hover .clients__link-svg,
-  //     &:focus .clients__link-svg {
-  //       fill: $link-color;
-  //     }
-  //   }
-    
-  //   &__link-svg {
-  //     fill: #afb1b8;
-  //     transition: fill $animation;
-  //   }
-    
-
-  // }
+  

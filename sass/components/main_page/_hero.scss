@@ -37,7 +37,48 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+    .hero {
+    height: 600px;
+
+    color: $logo-footer-color;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/hero/heroes.jpg");
+    background-size: cover;
+
+    &__title {
+        padding-top: 200px;
+        margin-bottom: 30px;
+    }
+    
+    &__btn {
+        @include btn($logo-footer-color, 700);
+        background: $link-color;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 216px;
+        height: 50px;
+        line-height: 187.5%;
+        letter-spacing: 0.96px;
+
+
+        transition: box-shadow $animation;
+
+        &:hover,
+        &:focus {
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        }
+    }
+}
 }
 
 // .hero {

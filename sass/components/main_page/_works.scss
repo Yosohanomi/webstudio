@@ -4,7 +4,11 @@
 
 @media screen and (min-width: 1200px) {
   .works__section{
+<<<<<<< HEAD
     display: flex;
+=======
+    visibility: visible;
+>>>>>>> af6453c3fbfa6a2c5f222449de114eb9d2faedf4
   &__title {
     color: $title-color;
     text-align: center;
