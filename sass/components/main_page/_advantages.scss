@@ -4,11 +4,13 @@
     display: block;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 450px;
     height: 120px;
+  }
+  &__list-item {
+    width: 450px;
     margin-bottom: 30px;
   }
-  
+
   &__list-item:nth-child(1)::before {
     @include advantages(url("../images/BG/antenna.png"))
   }
@@ -49,17 +51,13 @@
 
 @media screen and (min-width: 768px) {
   .advantages {
-
-
     &__list-item {
       width: 354px;
-      display: flex;
-      flex-wrap: wrap;
     }
     &__list {
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+      
     }
     &__list-item::before {
       display: block;
