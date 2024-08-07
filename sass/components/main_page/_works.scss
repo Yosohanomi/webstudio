@@ -2,6 +2,46 @@
   display: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .works__section{
+    display: flex;
+  &__title {
+    color: $title-color;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  &__img__container {
+    position: relative;
+  }
+  &-text {
+    position: absolute;
+    bottom: 0;
+  
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+}
+}
+
 // .works__section{
 //   &__title {
 //     color: $title-color;
