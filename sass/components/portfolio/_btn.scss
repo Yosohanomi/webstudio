@@ -9,7 +9,6 @@
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
-            margin-bottom: 50px;
         }
         
         &__btn {
@@ -52,6 +51,7 @@
     &__btn-list {
         justify-content: center;
         gap: 8px;
+        padding-bottom: 50px;
     }
     }
 }

@@ -1164,7 +1164,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 50px;
 }
 .portfolio__section__btn {
   color: #212121;
@@ -1202,6 +1201,7 @@ body {
   .portfolio__section__btn-list {
     justify-content: center;
     gap: 8px;
+    padding-bottom: 50px;
   }
 }
 .portfolio__project-subtitle {
@@ -1278,19 +1278,13 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio__project-subtitle {
-    margin-top: 20px;
-    margin-left: 24px;
-  }
-  .portfolio__project-text {
-    padding-left: 24px;
-    padding-bottom: 20px;
+  .portfolio__project-item {
+    height: 404px;
+    width: 369px;
   }
   .portfolio__section__project-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
   }
   .portfolio__overlay-text {
     margin-left: 24px;
