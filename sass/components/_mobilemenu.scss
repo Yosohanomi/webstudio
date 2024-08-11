@@ -81,56 +81,50 @@
     transition: transform $animation;
   }
 
-  .mobile__nav {
-}
-.mobile__nav-list {
-}
-.mobile__nav-item {
-    color: #212121;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0.8px;
-    &:hover,
-    &:focus {
-        color: $link-color;
+
+    .mobile__nav-item {
+        color: #212121;
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        &:hover,
+        &:focus {
+            color: $link-color;
+        }
     }
-}
-.mobile__nav-item:not(:last-child) {
-    padding-bottom: 32px;
-}
-.mobile__nav-link {
-}
-.mobile__contact-list {
-}
-.mobile__contact-item:not(:last-child) {
-    padding-bottom: 32px;
-}
-.mobile__contact__tel-link {
-    color: #2196F3;
-    font-size: 34px;
-    font-weight: 500;
-    letter-spacing: 0.68px;
-}
-.mobile__contact__email-link {
-    color: #757575;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0.48px;
-}
-.mobile__social-list {
-    display: flex;
-    gap: 10px;
-}
-.social__item-item:not(:last-child) {
-    border-right: 1px solid rgba(33, 33, 33, 0.20);
-}
-.mobile__social-link {
-    color: #2196F3;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 122%;
-    letter-spacing: 0.36px;
-    padding-right: 10px;
-}
+    .mobile__nav-item:not(:last-child) {
+        padding-bottom: 32px;
+    }
+    
+    .mobile__contact-item:not(:last-child) {
+        padding-bottom: 32px;
+    }
+    .mobile__contact__tel-link {
+        color: #2196F3;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 0.68px;
+    }
+    .mobile__contact__email-link {
+        color: #757575;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.48px;
+    }
+    .mobile__social-list {
+        display: flex;
+        gap: 10px;
+    }
+    .social__item-item:not(:last-child) {
+        border-right: 1px solid rgba(33, 33, 33, 0.20);
+    }
+    .mobile__social-link {
+        color: #2196F3;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 122%;
+        letter-spacing: 0.36px;
+        padding-right: 10px;
+    }
 }
