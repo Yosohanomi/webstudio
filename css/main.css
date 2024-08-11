@@ -1049,12 +1049,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .team__section__list-item {
-    width: 354px;
+    width: 353px;
   }
   .team__section__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
   }
   .team__section__item__list-svg {
     padding-bottom: 24px;
@@ -1062,7 +1062,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .team__section {
-    background: #f5f4fa;
     padding-bottom: 94px;
   }
   .team__section__list {
@@ -1072,63 +1071,25 @@ body {
     align-items: center;
   }
   .team__section__list-item {
-    border-radius: 0px 0px 4px 4px;
-    background: #fff;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    margin-bottom: 0;
+    width: 269px;
   }
   .team__section__title {
-    color: #212121;
-    text-align: center;
     font-size: 36px;
-    font-weight: 700;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
     padding-top: 94px;
   }
   .team__section__item__subtitle {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.48px;
     margin-bottom: 10px;
     margin-top: 30px;
   }
   .team__section__item__text {
-    color: #757575;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.48px;
     margin-bottom: 16px;
   }
   .team__section__item__list-svg {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    padding-bottom: 0;
     margin-bottom: 30px;
-  }
-  .team__section__item__list-item {
-    height: 44px;
-    width: 44px;
-    padding: 12px 12px;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .team__section__item__list-item:hover {
-    background-color: #2196f3;
-    border-radius: 50%;
-  }
-  .team__section__item__list-item > a > svg {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .team__section__item__list-item:hover > a > svg {
-    fill: #ffffff;
-  }
-  .team__section__link-svg {
-    fill: #afb1b8;
-    width: 20px;
-    height: 20px;
   }
 }
 .clients {
@@ -1146,7 +1107,7 @@ body {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   padding: 16px 32px;
-  width: 210px;
+  width: 209px;
 }
 .clients__item:hover, .clients__item:focus {
   border: 1px solid #2196f3;
@@ -1167,7 +1128,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .clients__item {
-    width: 226px;
+    width: 225px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1175,10 +1136,7 @@ body {
     padding: 94px 0px;
   }
   .clients__title {
-    text-align: center;
-    color: #212121;
     font-size: 36px;
-    font-weight: 700;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
@@ -1189,20 +1147,11 @@ body {
     gap: 30px;
   }
   .clients__item {
-    border-radius: 4px;
-    border: 1px solid #afb1b8;
     padding: 16px 32px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients__item:hover, .clients__item:focus {
-    border: 1px solid #2196f3;
-  }
-  .clients__item:hover .clients__link-svg, .clients__item:focus .clients__link-svg {
-    fill: #2196f3;
+    width: 169px;
   }
   .clients__link-svg {
-    fill: #afb1b8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 0;
   }
 }
 .portfolio__section {
@@ -1354,6 +1303,9 @@ body {
   }
   .portfolio__overlay-text {
     margin-top: 49px;
+  }
+  .portfolio__project-img-div {
+    width: 352px;
   }
 }
 @media screen and (min-width: 1200px) {
