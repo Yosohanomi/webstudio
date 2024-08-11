@@ -460,6 +460,9 @@ body {
   }
   .footer__elements {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .footer__logo > span {
     font-size: 26px;
@@ -470,8 +473,13 @@ body {
   .footer__contacts__link:hover, .footer__contacts__link:focus {
     color: #fff;
   }
+  .footer__elements-first {
+    padding-right: 165px;
+    padding-left: 76px;
+  }
   .footer__elements-second {
-    margin-left: 82px;
+    padding-top: 0;
+    margin-right: 82px;
   }
   .footer .join__item {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -483,7 +491,7 @@ body {
     padding-top: 60px;
   }
   .footer__input {
-    width: 358px;
+    width: 450px;
     height: 50px;
   }
   .footer__send-form {
@@ -618,8 +626,6 @@ body {
     letter-spacing: 0.96 .footer__send-text;
   }
 }
-/* JOIN FOOTER */
-/* SEND-FOOTER */
 .hero {
   text-align: center;
   height: 400px;
