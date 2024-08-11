@@ -1,38 +1,7 @@
-// .portfolio__section {
-//     padding-top: 94px;
-//     border: 1px solid #eee;
-//     height: 1552px;
-//     gap: 30px;
 
-//     &__btn-list {
-//         display: flex;
-//         justify-content: center;
-//         gap: 8px;
-//         margin-bottom: 50px;
-//     }
-    
-//     &__btn {
-//         @include btn($title-color, 500);
-//         line-height: 162.5%;
-//         letter-spacing: 0.48px;
-
-//         background: #f5f4fa;
-//         padding: 6px 22px;
-//         transition: background-color $animation,
-//         color $animation,
-//         box-shadow $animation;
-
-//         &:hover,
-//         &:focus {
-//             background-color: $link-color;
-//             color: $logo-footer-color;
-//             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-//             0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-//         }
-//     }
-//     }
     .portfolio__section {
         padding-top: 66px;
+        padding-bottom: 60px;
         border: 1px solid #eee;
         gap: 30px;
     
