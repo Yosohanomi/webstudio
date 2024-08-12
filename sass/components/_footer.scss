@@ -224,11 +224,16 @@
 
   &__elements {
     flex-wrap: nowrap;
+    align-items: flex-start;
   }
   
   &__elements-first {
     display: flex;
     flex-direction: column;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 70px;
+    
   }
   
   &__contacts {
@@ -253,6 +258,7 @@
   &__elements-second {
     margin-left: 0px;
     display: block;
+   
   }
   .join__text {
   }
@@ -266,6 +272,7 @@
   &__send-div {
     padding-left: 93px;
     display: block;
+    padding-top: 0;
   }
   
   &__label {

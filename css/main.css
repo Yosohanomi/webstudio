@@ -511,10 +511,14 @@ body {
   }
   .footer__elements {
     flex-wrap: nowrap;
+    align-items: flex-start;
   }
   .footer__elements-first {
     display: flex;
     flex-direction: column;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 70px;
   }
   .footer__contacts {
     text-align: start;
@@ -539,6 +543,7 @@ body {
   .footer__send-div {
     padding-left: 93px;
     display: block;
+    padding-top: 0;
   }
   .footer__send-form {
     flex-direction: row;
