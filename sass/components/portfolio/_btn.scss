@@ -31,6 +31,9 @@
             }
         }
         }
+.portfolio__project-img {
+    width: 100%;
+}
 
 @media screen and (min-width: 768px) {
     .portfolio__section {
@@ -38,6 +41,7 @@
         &__btn-list {
             display: flex;
             justify-content: center;
+            padding-bottom: 30px;
         }
         
         }

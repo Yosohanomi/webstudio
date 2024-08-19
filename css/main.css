@@ -57,7 +57,6 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  border: 1px solid red;
 }
 
 body {
@@ -1122,6 +1121,10 @@ body {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.portfolio__project-img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .portfolio__section {
     padding-top: 66px;
@@ -1129,6 +1132,7 @@ body {
   .portfolio__section__btn-list {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
