@@ -1,25 +1,28 @@
-input[type="checkbox"],
-label {
-display: none;
+.burger__input[type="checkbox"],
+.burger__label {
+  display: none;
 }
 
-@media screen and (max-width: 768px) {
-    // nav {
-    // order: 1;
-    // }
-    
-    .burger__label {
+@media screen and (max-width: 767px) {
+  .burger__label {
     display: block;
+    width: 30px;
     height: 30px;
     position: relative;
-    top: 15px;
     margin-left: auto;
-    position: relative;
-    }
-    
-    .burger__label span,
-    .burger__label span::before,
-    .burger__label span::after {
+  }
+
+  .burger__label:hover {
+    cursor: pointer;
+  }
+
+  .burger__label span {
+    top: 15px;
+  }
+
+  .burger__label span,
+  .burger__label span::before,
+  .burger__label span::after {
     content: "";
     display: block;
     width: 25px;
@@ -28,78 +31,100 @@ display: none;
     position: absolute;
     right: 0;
     transition: 0.3s;
-    z-index: 5;
-    }
-    
-    .burger__label span::before {
+    z-index: 6;
+  }
+
+  .burger__label span::before {
     top: -8px;
-    }
-    
-    .burger__label span::after {
+  }
+
+  .burger__label span::after {
     top: 8px;
-    }
-    
-    .header__nav-list {
-        display: none;
-    }
-    
-    input[type="checkbox"]:checked ~ .header__nav-list {
-        display: flex;
-        flex-direction: column;
-    }
+  }
 
-    .burger__input[type="checkbox"]:checked ~ .mobile__menu {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: none;
-        transform: translateX(0%);
-        pointer-events: auto;
-    }
-
-    
-    .header__nav-list {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 48px 40px;
-    background: #fff;
-    box-shadow: 0 12px 8px #ececec;
-    }
-    
-    .header__nav li {
-    margin: 15px 0;
-    }
-    
-    .burger__input[type="checkbox"]:checked ~ .burger__label span {
+  .burger__input[type="checkbox"]:checked ~ .burger__label span {
     transform: rotate(-45deg);
-    }
-    .burger__input[type="checkbox"]:checked ~ .burger__label span::before {
+  }
+  .burger__input[type="checkbox"]:checked ~ .burger__label span::before {
     top: 0;
     transform: rotate(0);
-    }
-    .burger__input[type="checkbox"]:checked ~ .burger__label span::after {
+  }
+  .burger__input[type="checkbox"]:checked ~ .burger__label span::after {
     top: 0;
     transform: rotate(90deg);
-    }
+  }
 
-    .mobile__menu {
-        background: #fff;
-        transform: translateX(100%);
-        transition: transform $animation;
+  .burger__input[type="checkbox"]:checked ~ .mobile__menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+    pointer-events: auto;
+  }
+
+  .mobile__menu {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 48px 40px;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(100%);
+    transition: transform $animation;
+  }
+
+
+    .mobile__nav-item {
+        color: #212121;
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        &:hover,
+        &:focus {
+            color: $link-color;
+        }
+    }
+    .mobile__nav-item:not(:last-child) {
+        padding-bottom: 32px;
+    }
+    
+    .mobile__contact-item:not(:last-child) {
+        padding-bottom: 32px;
+    }
+    .mobile__contact__tel-link {
+        color: #2196F3;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 0.68px;
+    }
+    .mobile__contact__email-link {
+        color: #757575;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.48px;
+    }
+    .mobile__social-list {
         display: flex;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        padding: 48px 40px;
-        z-index: 5;
-        opacity: 0;
-        overflow: hidden;
-        visibility: hidden;
-        flex-direction: column;
-        justify-content: space-between;
+        gap: 10px;
+    }
+    .social__item-item:not(:last-child) {
+        border-right: 1px solid rgba(33, 33, 33, 0.20);
+    }
+    .mobile__social-link {
+        color: #2196F3;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 122%;
+        letter-spacing: 0.36px;
+        padding-right: 10px;
     }
 }

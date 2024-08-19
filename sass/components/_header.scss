@@ -1,12 +1,11 @@
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
 
     & .container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between
     }
 
     &__logo {
@@ -18,40 +17,49 @@
         color: $logo-color;
     }
 
+    &__nav-list {
+        display: none;
+    }
+
     &__contact-list {
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) {
+    .mobile__menu {
+        display: none;
+    }
 
     .header {
-        padding-top: 10px;
-        padding-top: 10px;
+        padding-top:21px;
+        padding-bottom: 21px;
+
         &__logo {
             margin-right: 88px;
         }
     
         &__nav-list {
             display: flex;
+            align-items: center;
             gap: 50px;
             margin-right: 96px;
         }
     
         &__nav-link {
             position: relative;
-            padding-bottom: 22px;
             color: $title-color;
             font-size: 14px;
             font-weight: 500;
             letter-spacing: 0.28px;
+            padding-bottom: 32px;
             transition: color $animation;
             &:hover,
             &:focus {
                 color: $link-color;
             }
         }
-    
+
         .current::after {
             position: absolute;
             left: 0;
@@ -65,30 +73,23 @@
         }
     
         &__contact-list {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        &__contact-item {
-            display: flex;
-            align-items: center;
+            display: block;
         }
 
-        &__email {
+        &__contact-item:not(:last-child) {
             margin-bottom: 10px;
         }
     
         &__contact-link {
-            transition: color $animation;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             color: $main-text-color;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 500;
             letter-spacing: 0.28px;
             margin-left: 10px;
-    
+            transition: color $animation;
             &:hover,
             &:focus {
                 color: $link-color;
@@ -98,154 +99,39 @@
         &__contact-item-svg {
             fill: currentColor;
         }
-    }
-    .mobile__menu {
-        display: none;
-
     }
 }
 
 
 @media screen and (min-width: 1200px) {
     .header {
-        padding-top: 30px;
-        padding-bottom: 27px;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
         &__logo {
             margin-right: 93px;
         }
 
         &__nav-list {
-            display: flex;
-            gap: 30px;
-            margin-right: 318px;
+            margin-right: 315px;
         }
 
         &__nav-link {
-            position: relative;
-            padding-bottom: 32px;
-            color: $title-color;
-            transition: color $animation;
-            &:hover,
-            &:focus {
-                color: $link-color;
-            }
-        }
-
-        .current::after {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            content: "";
-            display: block;
-            height: 4px;
-            width: 100%;
-            background-color: $link-color;
-            border-radius: 2px;
+            padding-bottom: 30px;
         }
 
         &__contact-list {
             display: flex;
-            flex-direction: row;
             gap: 30px;
         }
 
-        &__contact-item {
-            display: flex;
-            align-items: center;
+        &__contact-item:not(:last-child) {
+            margin-bottom: 0;
         }
 
         &__contact-link {
-            transition: color $animation;
-            display: flex;
-            align-items: center;
             gap: 10px;
-            color: $main-text-color;
-            margin-left: 10px;
-
-            &:hover,
-            &:focus {
-                color: $link-color;
-            }
-        }
-
-        &__contact-item-svg {
-            fill: currentColor;
         }
 
 }
 }
-
-// .header {
-//     padding-top: 10px;
-//     padding-bottom: 10px;
-
-//     &__logo {
-//         @extend %logo;
-//         margin-right: 93px;
-//     }
-
-//     &__logo > span {
-//         color: $logo-color;
-//     }
-
-//     &__nav-list {
-//         display: flex;
-//         gap: 30px;
-//         margin-right: 318px;
-//     }
-
-//     &__nav-link {
-//         position: relative;
-//         padding-bottom: 32px;
-//         color: $title-color;
-//         @extend %text;
-//         transition: color $animation;
-//         &:hover,
-//         &:focus {
-//             color: $link-color;
-//         }
-//     }
-
-//     .current::after {
-//         position: absolute;
-//         left: 0;
-//         bottom: 0;
-//         content: "";
-//         display: block;
-//         height: 4px;
-//         width: 100%;
-//         background-color: $link-color;
-//         border-radius: 2px;
-//     }
-
-//     &__contact-list {
-//         display: flex;
-//         gap: 30px;
-//     }
-
-//     &__contact-item {
-//         display: flex;
-//         align-items: center;
-//     }
-
-//     &__contact-link {
-//         transition: color $animation;
-//         display: flex;
-//         align-items: center;
-//         gap: 10px;
-//         color: $main-text-color;
-//         @extend %text;
-//         margin-left: 10px;
-
-//         &:hover,
-//         &:focus {
-//             color: $link-color;
-//         }
-//     }
-
-//     &__contact-item-svg {
-//         fill: currentColor;
-//     }
-
-// }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .portfolio__section {
     padding-top: 66px;
     border: 1px solid #eee;
@@ -9,6 +10,20 @@
         gap: 8px;
         margin-bottom: 50px;
     }
+=======
+
+    .portfolio__section {
+        padding-top: 66px;
+        padding-bottom: 60px;
+        border: 1px solid #eee;
+        gap: 30px;
+    
+        &__btn-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+>>>>>>> 08c132998c2a1966283fad236198f48c33ee9c1b
         
     &__btn {
         @include btn($title-color, 500);
@@ -30,6 +45,9 @@
             }
         }
         }
+.portfolio__project-img {
+    width: 100%;
+}
 
 @media screen and (min-width: 768px) {
     .portfolio__section {
@@ -37,6 +55,7 @@
         &__btn-list {
             display: flex;
             justify-content: center;
+            padding-bottom: 30px;
         }
         
         }
@@ -50,6 +69,7 @@
     &__btn-list {
         justify-content: center;
         gap: 8px;
+        padding-bottom: 50px;
     }
     }
 }
