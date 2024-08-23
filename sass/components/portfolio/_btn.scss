@@ -10,10 +10,11 @@
         gap: 8px;
         margin-bottom: 50px;
     }
+}
 
-    .portfolio__section {
-        padding-top: 66px;
-        padding-bottom: 60px;
+.portfolio__section {
+        padding-top: 60px;
+        padding-bottom: 40px;
         border: 1px solid #eee;
         gap: 30px;
     
@@ -43,7 +44,7 @@
             }
         }
         }
-    }
+
 .portfolio__project-img {
     width: 100%;
 }
@@ -63,12 +64,6 @@
 @media screen and (min-width: 1200px) {
     .portfolio__section {
     padding-top: 94px;
-    height: 1552px;
-
-    &__btn-list {
-        justify-content: center;
-        gap: 8px;
-        padding-bottom: 50px;
-    }
+    padding-bottom: 50px;
     }
 }

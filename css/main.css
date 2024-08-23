@@ -449,7 +449,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5%;
-  letter-spacing: 0.96 .footer__send-text;
+  letter-spacing: 0.96;
 }
 
 @media screen and (min-width: 768px) {
@@ -1103,18 +1103,19 @@ body {
   gap: 8px;
   margin-bottom: 50px;
 }
-.portfolio__section .portfolio__section {
-  padding-top: 66px;
-  padding-bottom: 60px;
+
+.portfolio__section {
+  padding-top: 60px;
+  padding-bottom: 40px;
   border: 1px solid #eee;
   gap: 30px;
 }
-.portfolio__section .portfolio__section__btn-list {
+.portfolio__section__btn-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.portfolio__section .portfolio__section__btn {
+.portfolio__section__btn {
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -1127,7 +1128,7 @@ body {
   padding: 6px 22px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__section .portfolio__section__btn:hover, .portfolio__section .portfolio__section__btn:focus {
+.portfolio__section__btn:hover, .portfolio__section__btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -1150,11 +1151,6 @@ body {
 @media screen and (min-width: 1200px) {
   .portfolio__section {
     padding-top: 94px;
-    height: 1552px;
-  }
-  .portfolio__section__btn-list {
-    justify-content: center;
-    gap: 8px;
     padding-bottom: 50px;
   }
 }
