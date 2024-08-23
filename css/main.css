@@ -309,17 +309,6 @@ body {
   .header__contact-link {
     gap: 10px;
   }
-  .header .current::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    width: 100%;
-    background-color: #2196f3;
-    border-radius: 2px;
-  }
 }
 .footer {
   background: #2f303a;
