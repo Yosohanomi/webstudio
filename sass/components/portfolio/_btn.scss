@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 .portfolio__section {
     padding-top: 66px;
+    padding-bottom: 40px;
     border: 1px solid #eee;
     gap: 30px;
     
@@ -10,7 +10,6 @@
         gap: 8px;
         margin-bottom: 50px;
     }
-=======
 
     .portfolio__section {
         padding-top: 66px;
@@ -23,7 +22,6 @@
             flex-wrap: wrap;
             gap: 8px;
         }
->>>>>>> 08c132998c2a1966283fad236198f48c33ee9c1b
         
     &__btn {
         @include btn($title-color, 500);
@@ -45,6 +43,7 @@
             }
         }
         }
+    }
 .portfolio__project-img {
     width: 100%;
 }

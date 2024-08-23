@@ -1,3 +1,7 @@
+.portfolio__project-item {
+    margin-bottom: 30px;
+}
+
 .portfolio__project-subtitle {
     color: $title-color;
     font-size: 18px;
@@ -67,6 +71,7 @@
     }
 
     .portfolio__project-item {
+        margin-bottom: 0;
         width: 353px;
     }
         
@@ -81,6 +86,7 @@
         .portfolio__project-item {
             height: 404px;
             width: 369px;
+            margin-bottom: 0;
         }
 
         .portfolio__section__project-list {
