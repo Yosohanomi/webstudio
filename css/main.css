@@ -449,14 +449,10 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5%;
-  letter-spacing: 0.96;
+  letter-spacing: 0.96px;
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    /* JOIN FOOTER */
-    /* SEND-FOOTER */
-  }
   .footer__elements {
     display: flex;
     flex-wrap: wrap;
@@ -505,8 +501,6 @@ body {
   .footer {
     padding-top: 60;
     padding-bottom: 60;
-    /* JOIN FOOTER */
-    /* SEND-FOOTER */
   }
   .footer__elements {
     flex-wrap: nowrap;
