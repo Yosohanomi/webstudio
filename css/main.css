@@ -1077,6 +1077,9 @@ body {
   margin-bottom: 30px;
 }
 .clients__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: 1px solid #afb1b8;
   padding: 16px 32px;
@@ -1096,10 +1099,12 @@ body {
 .clients__link-svg {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 30px;
 }
 
 @media screen and (min-width: 768px) {
+  .clients__title {
+    text-align: start;
+  }
   .clients__item {
     width: 225px;
   }
@@ -1112,6 +1117,7 @@ body {
     font-size: 36px;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
+    text-align: start;
   }
   .clients__list {
     display: flex;

@@ -11,6 +11,9 @@
     }
 
     &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 4px;
       border: 1px solid #afb1b8;
       padding: 16px 32px;
@@ -18,6 +21,11 @@
       &:focus {
         border: 1px solid $link-color;
       }
+
+      // &__item__list-link {
+      //   justify-content: center;
+      //   align-items: center;
+      // }
 
       &:hover .clients__link-svg,
       &:focus .clients__link-svg {
@@ -34,7 +42,6 @@
     &__link-svg {
       fill: #afb1b8;
       transition: fill $animation;
-      margin-left: 30px;
     }
     
 
@@ -42,7 +49,9 @@
 
 @media screen and (min-width: 768px) {
   .clients {
-
+    &__title {
+      text-align: start;
+    }
     &__item {
       width: 225px;
     }
@@ -57,6 +66,7 @@
       font-size: 36px;
       letter-spacing: 1.08px;
       margin-bottom: 50px;
+      text-align: start;
     }
 
     &__list {
